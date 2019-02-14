@@ -55,7 +55,8 @@ module.exports = function() {
           name: 'ember-canary',
           npm: {
             devDependencies: {
-              'ember-source': urls[2]
+              'ember-source': urls[2],
+              'ember-concurrency': 'https://github.com/bendemboski/ember-concurrency.git#fce47a814ec069acdb9050e7c1c18997b0067432'
             }
           }
         },
