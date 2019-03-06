@@ -47,7 +47,8 @@ module.exports = function() {
           name: 'ember-beta',
           npm: {
             devDependencies: {
-              'ember-source': urls[1]
+              'ember-source': urls[1],
+              'ember-concurrency': 'https://github.com/pzuraq/ember-concurrency.git#8c2239838e82a4902c8ab9a20e2ce52e8eaa1bbe'
             }
           }
         },
@@ -55,7 +56,8 @@ module.exports = function() {
           name: 'ember-canary',
           npm: {
             devDependencies: {
-              'ember-source': urls[2]
+              'ember-source': urls[2],
+              'ember-concurrency': 'https://github.com/pzuraq/ember-concurrency.git#8c2239838e82a4902c8ab9a20e2ce52e8eaa1bbe'
             }
           }
         },
